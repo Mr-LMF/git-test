@@ -44,6 +44,12 @@ public class StudentController {
         student.setName(name);
         student.setPass(pass);
         student.setReTime(new Date());
+
+        System.out.println("231312312");
+        System.out.println("231312312");
+        System.out.println("231312312");
+        System.out.println("231312312");
+        System.out.println("231312312");
         studentService.addStudent(student);
     }
 }
